@@ -43,6 +43,10 @@ html, body {
   font-size: 20pt;
 }
 
+#title:hover {
+  cursor: pointer;
+}
+
 .nav-children {
   display: flex;
   padding: 20px;
@@ -79,7 +83,7 @@ a {
 #virtual-assistant {
   height: 800px;
   width: 250px;
-  z-index: 99;
+  z-index: 10000;
   background-color: white;
   float: right;
   box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
@@ -151,4 +155,8 @@ a {
   background-color: darksalmon;
   color: white;
   transform: rotateY(180deg);
+}
+
+#title-text {
+  color: black;
 }
