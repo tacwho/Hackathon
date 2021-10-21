@@ -228,6 +228,7 @@ a:hover {
 
 .columns {
   display: flex;
+  flex-wrap: wrap;
 }
 
 input {
