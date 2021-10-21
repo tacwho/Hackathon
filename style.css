@@ -229,3 +229,16 @@ a:hover {
 .columns {
   display: flex;
 }
+
+input {
+  height: 40px;
+  width: 220px;
+  border: none;
+  background-color: none;
+  margin: 8px;
+  font-size: 11pt;
+}
+
+input:focus{
+  outline: none;
+}
