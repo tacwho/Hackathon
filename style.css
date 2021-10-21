@@ -24,6 +24,7 @@ html, body {
 
 #title {
   font-weight: bold;
+  font-size: 20pt;
 }
 
 .nav-children {
@@ -33,7 +34,7 @@ html, body {
 
 .nav-links {
   display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
