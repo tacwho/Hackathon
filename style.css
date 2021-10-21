@@ -48,6 +48,11 @@ html, body {
   padding: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
 .nav-links {
   display: flex;
   padding-left: 10px;
