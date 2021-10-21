@@ -83,7 +83,7 @@ a {
 #virtual-assistant {
   height: 800px;
   width: 250px;
-  z-index: 10000;
+  z-index: 10;
   background-color: white;
   float: right;
   box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
@@ -159,4 +159,8 @@ a {
 
 #title-text {
   color: black;
+}
+
+.black {
+  color: black !important;
 }
