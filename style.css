@@ -126,6 +126,7 @@ a:hover {
   height: 200px;
   perspective: 1000px; 
   padding: 10px;
+  display: flex;
 }
 
 .flip-card-inner {
@@ -223,4 +224,8 @@ a:hover {
 
 #icon:hover {
   cursor: pointer;
+}
+
+.columns {
+  display: flex;
 }
