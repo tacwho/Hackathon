@@ -131,7 +131,6 @@ a {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -144,12 +143,12 @@ a {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: white;
+  color: rosybrown;
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: darksalmon;
   color: white;
   transform: rotateY(180deg);
 }
