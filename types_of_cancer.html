@@ -3,57 +3,43 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>kNOw Cancer</title>
+	<title>KnoW Cancer</title>
 	<!-- THE TITLE element is the name of the page, it is also visible in the browser tab. Its always good practice to give each page an appropriate title. -->
 	<meta name="description" content="A sample website, nothin fancy">
       <meta http-equiv="author" content="Francisco Campos Arias">
       <meta name="keywords" content="html, css, web, design, sample, practice">
       <!-- These are META TAGS, they're used to describe the website, this information is read mainly by search engines like GOOGLE, YAHOO, ETC... -->	
 	<link rel="stylesheet" href="style.css">
-	<script src="links.js"></script>
+	<script src="http://localhost:8080/target/target-script-min.js#anonymous"></script>
 </head>
 <body>
 	<div class="container">
 <!-- THIS ACTUAL CONTENT BEGINS HERE...this is called a comment. which can only be seen when viewing the source code. This text CANNOT be seen by the browser. Its helpful when you need to place notes, comments or reminders in your code -->
 	<header>
-		<div class="navigation">
-			<div id="title" class="nav-children">
-				K<u>NO</u>W CANCER
-			</div>
-			<div class="nav-children">
-				<a href="about_us.html">
-					About Us
-				</a>
-				<div class="nav-links"> 
-					<a href="types_of_cancer.html">Common Types of Cancer</a>
-				</div>
-				<div class="nav-links"> 
-					Virtual Assistant
-				</div>
-				<div class="nav-links"> 
-					Next Steps
-				</div>
-			</div>
+		<div class="header">
+			<h1>Common Types of Cancers</h1>
 		</div>
 	</header>
-	<div id="main">
-		<h1>
-			HELLO
-		</h1>
-		
-		<img src="message icon.png" alt="kNOw Cancer" width="500" height="500">
-	</div>
-	<div id="virtual-assistant">
-		<div id="virtual-assistant-header">
-			Virtual Assistant
+	<!-- END HEADER | the header element in new to HTML5 -->
+		<div class="main">
+			<h2>Breast Cancer</h2>
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<h3>What is breast cancer?</h3>
+					</div>
+					<div class="flip-card-back">
+						<ul>
+							<li>Forms in the cells of the breasts.</li>
+							<li>Can occur in women and rarely in men</li>
+							<li>Breast cancer in women under 40 is relatively uncommon</li>
+						<ul>
+				  </div>
+				</div>
+			  </div>
 		</div>
-		<div id="chat">
-
-		</div>
-		<div id="virtual-assistant-type">
-
-		</div>
-	</div>
+	<footer>
+	</footer>
 	<!-- END FOOTER | the footer element is also new to HTML5 -->
 	</div>
 </body>
