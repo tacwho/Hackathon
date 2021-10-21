@@ -75,7 +75,6 @@ a:hover {
 }
 
 #virtual-assistant {
-  height: 800px;
   width: 250px;
   z-index: 10;
   background-color: white;
@@ -83,6 +82,13 @@ a:hover {
   box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
   flex-direction: column;
   display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+#clear {
+  clear: both;
 }
 
 #virtual-assistant-header {
@@ -104,6 +110,8 @@ a:hover {
   display: flex;
   align-items: center;
   border-top: 1px solid grey;
+  display: flex;
+  justify-content: right;
 }
 
 #chat {
@@ -207,3 +215,12 @@ a:hover {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #f7d888;}
+
+#icon {
+  display: flex;
+  margin-right: 10px;
+}
+
+#icon:hover {
+  cursor: pointer;
+}
